@@ -1,0 +1,42 @@
+
+body{
+    background-color: aliceblue;
+    
+}
+.card{
+    background-color: antiquewhite;
+    
+}
+
+.card{
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10 px black;
+    text-align: center;
+    
+}
+
+img{
+    width: 800px;
+    height: 800px;
+    border-radius: 60%;
+    border: 5px solid #6b4600;
+}
+.card2{
+    background-color:  antiquewhite;
+    
+}
+.card2{
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10 px black;
+    text-align: center;
+    
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bold;
+}

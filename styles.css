@@ -1,26 +1,34 @@
-body, h1, h2, h3, p, a {
+.hero, h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #657C57;
 }
 
 body {
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: #E2F7D7;
+}
+.contact-info, strong, p{
+    color: #657C57;
 }
 
 .container {
     width: 90%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px ;
+    background-color: #F6FFF2;
+}
+.about.container, p{
+    color: #333;
 }
 
 header.hero {
     background-color: #e0e0e0;
     padding: 30px 0;
     text-align: center;
+    background-image: url(3.jpg);
 }
 
 header.hero h1 {
@@ -33,11 +41,12 @@ header.hero p {
 }
 
 header.hero a {
-    color: #333;
+    color:#F6FFF2;
     text-decoration: none;
+
 }
 
-section {
+section{
     background-color: #fff;
     margin: 25px 0;
     padding: 20px;
@@ -50,41 +59,23 @@ section {
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    
 }
 
 .profile img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-}
-
-.card {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 5px;
-    transition: background-color 0.2s;
-}
-
-.card:hover {
-    background-color: #f0f0f0;
-}
-
-.card a {
-    text-decoration: none;
-    color: #333;
-    display: block;
 }
 
 h2 {
     margin-bottom: 15px;
-    color: #555;
+    color: #657C57;
 }
 
 h3 {
     margin-bottom: 8px;
-    color: #444;
+    color: #657C57;
 }
 
 a:hover {
@@ -93,4 +84,96 @@ a:hover {
 
 .contact p {
     margin: 8px 0;
+}
+.card {
+    display: block;
+    border: 1px solid #E2F7D7;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    color: #333;
+}
+
+.card:hover {
+    background-color: #E2F7D7;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+
+.humcom-section {
+    padding: 50px 20px;
+    background-image: url(3.jpg);
+}
+
+.humcom-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #657C57;
+}
+
+.humcom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.humcom-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.humcom-item:hover {
+    transform: scale(1.03);
+}
+
+.humcom-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.activity-label {
+    padding: 15px 20px 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #657C57;
+}
+
+.reflection-section {
+    padding: 50px 20px;
+    background-image: url(3.jpg);
+}
+
+.reflection-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color:#657C57;
+}
+
+.reflection-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.reflection-content p {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    line-height: 1.9;
+    text-align: justify;
+    color: #657C57;
+}
+
+.activity-date {
+    padding: 0 20px 15px;
+    color: #888;
+    font-size: 0.95rem;
 }
